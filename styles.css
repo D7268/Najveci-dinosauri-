@@ -1,0 +1,61 @@
+/* CSS stilovi za stranicu dinosaura */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.description {
+    display: none;
+}
